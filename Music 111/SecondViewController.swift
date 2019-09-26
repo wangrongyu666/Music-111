@@ -48,6 +48,8 @@ class SecondViewController: UIViewController {
         {
             
         }
+        
+        
     }
     @IBAction func UiSlider(_ sender: Any)
     {
