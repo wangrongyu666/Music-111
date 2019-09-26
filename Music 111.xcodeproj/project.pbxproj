@@ -14,6 +14,10 @@
 		4E67D6F6233D3F0C007207CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E67D6F4233D3F0C007207CC /* Main.storyboard */; };
 		4E67D6F8233D3F0D007207CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E67D6F7233D3F0D007207CC /* Assets.xcassets */; };
 		4E67D6FB233D3F0D007207CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E67D6F9233D3F0D007207CC /* LaunchScreen.storyboard */; };
+		4E67D707233D3F52007207CC /* I'm Yours - Jason Mraz Lyrics.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E67D703233D3F51007207CC /* I'm Yours - Jason Mraz Lyrics.mp3 */; };
+		4E67D708233D3F52007207CC /* Maroon 5 - Sugar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E67D704233D3F51007207CC /* Maroon 5 - Sugar.mp3 */; };
+		4E67D709233D3F52007207CC /* Ellie Goulding - Love Me Like You Do (Official Video).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E67D705233D3F51007207CC /* Ellie Goulding - Love Me Like You Do (Official Video).mp3 */; };
+		4E67D70A233D3F52007207CC /* Fotolia_47067463_S_copyright.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E67D706233D3F51007207CC /* Fotolia_47067463_S_copyright.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		4E67D6F7233D3F0D007207CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E67D6FA233D3F0D007207CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E67D6FC233D3F0D007207CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E67D703233D3F51007207CC /* I'm Yours - Jason Mraz Lyrics.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I'm Yours - Jason Mraz Lyrics.mp3"; sourceTree = "<group>"; };
+		4E67D704233D3F51007207CC /* Maroon 5 - Sugar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Sugar.mp3"; sourceTree = "<group>"; };
+		4E67D705233D3F51007207CC /* Ellie Goulding - Love Me Like You Do (Official Video).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ellie Goulding - Love Me Like You Do (Official Video).mp3"; sourceTree = "<group>"; };
+		4E67D706233D3F51007207CC /* Fotolia_47067463_S_copyright.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fotolia_47067463_S_copyright.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +74,20 @@
 				4E67D6F7233D3F0D007207CC /* Assets.xcassets */,
 				4E67D6F9233D3F0D007207CC /* LaunchScreen.storyboard */,
 				4E67D6FC233D3F0D007207CC /* Info.plist */,
+				4E67D702233D3F51007207CC /* wry songs */,
 			);
 			path = "Music 111";
+			sourceTree = "<group>";
+		};
+		4E67D702233D3F51007207CC /* wry songs */ = {
+			isa = PBXGroup;
+			children = (
+				4E67D703233D3F51007207CC /* I'm Yours - Jason Mraz Lyrics.mp3 */,
+				4E67D704233D3F51007207CC /* Maroon 5 - Sugar.mp3 */,
+				4E67D705233D3F51007207CC /* Ellie Goulding - Love Me Like You Do (Official Video).mp3 */,
+				4E67D706233D3F51007207CC /* Fotolia_47067463_S_copyright.jpg */,
+			);
+			path = "wry songs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E67D708233D3F52007207CC /* Maroon 5 - Sugar.mp3 in Resources */,
 				4E67D6FB233D3F0D007207CC /* LaunchScreen.storyboard in Resources */,
 				4E67D6F8233D3F0D007207CC /* Assets.xcassets in Resources */,
+				4E67D707233D3F52007207CC /* I'm Yours - Jason Mraz Lyrics.mp3 in Resources */,
+				4E67D709233D3F52007207CC /* Ellie Goulding - Love Me Like You Do (Official Video).mp3 in Resources */,
 				4E67D6F6233D3F0C007207CC /* Main.storyboard in Resources */,
+				4E67D70A233D3F52007207CC /* Fotolia_47067463_S_copyright.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
